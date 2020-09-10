@@ -57,14 +57,15 @@ public class Week4Exercises {
 		for (Integer id : ids) {
 			idsBuilder.append(id).append("-");
 		}
-		System.out.println(idsBuilder);
+		System.out.println(idsBuilder.toString());
+		;
 
 		StringBuilder namesBuilder = new StringBuilder();
 		for (String name : employeeNames) {
 			namesBuilder.append(name).append(" ");
 
 		}
-		System.out.println(namesBuilder);
+		System.out.println(namesBuilder.toString());
 
 	}
 
